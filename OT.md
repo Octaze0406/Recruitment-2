@@ -1,5 +1,5 @@
-**OT(OPERATIONAL TECHNOLOGY) SECURITY**
----
+##OT(OPERATIONAL TECHNOLOGY) SECURITY 
+
 Practices and technologies used to (a) protect people, assets, and information, (b) monitor and/or control physical devices, processes and events.
 **OT VS IT**
 ---
