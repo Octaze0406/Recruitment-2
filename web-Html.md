@@ -53,46 +53,45 @@ Created a website using html . HTML-used for crating web pages.
 +to provide a title to the web page use {title}____{/title}
 
 +{body}
-{a href="" target="_blank"} - to open the said link inside href in a new tab.
-you can put your image as a link by simply putting the image command inside anchor :{a_____} {img________} {/a}
+++{a href="" target="_blank"} - to open the said link inside href in a new tab.
 
-TO HAVE THE user click a link and automatically scroll to that section ,
-note:leave 2 spaces before starting the code on a differernt line if the code above is a parent code.
+++{a href="" target="_self"}- to open the said link inside the same tab.
 
-tp add a comment ; {!--________--}
++you can put your image as a - link by simply putting the image command inside anchor :{a_____} {img________} {/a}
 
-TO CREATE A TABLE {table}
++TO HAVE THE user click a link and automatically scroll to that section , first provide a anchor at begining and add the link href="#..." and at the part where you want to scroll to simpy put id="".
 
++note:leave 2 spaces before starting the code on a differernt line if the code above is a parent code.
 
-to create number of rows use {tr} {/tr} --1 row
++to add a comment ; {!--________--}
 
-to fill it with date use {td}
++TO CREATE A TABLE {table}
 
-to describe what the data represent we need table headings,,,{th}
++to create number of rows use {tr} {/tr} --1 row [table row]
 
-First, a new row was added to hold the three headings
++to fill it with data use {td}
 
--- the use of the scope attribute, which can take one of two values:
++to describe what the data represent we need table headings,,,{th}
 
++First, a new row was added to hold the three headings
 
+++ the use of the scope attribute, which can take one of two values:
 
-row - this value makes it clear that the heading is for a row.
++++row - this value makes it clear that the heading is for a row.
 
-col - this value makes it clear that the heading is for a column.
++++col - this value makes it clear that the heading is for a column.
 
-format: {th scope="row/col" }___________{/th}
++format: {th scope="row/col" }___________{/th}
 
-we enclose different rows of the table under ,,,{thead}, {
++we enclose different rows of the table under ,,,{thead}, {tbody}, {tfoot}.
 
-tbody}, {tfoot}.
+++CSS -Cascading Style SHeets.
 
-CSS -Cascading Style SHeets.
++a {form} that will send information to a location(____) as a POST request:
 
- a {form} that will send information to a location(____) as a POST request:
++The (action) attribute determines where the information is sent.
 
-The (action) attribute determines where the information is sent.
-
-The (method) attribute is assigned a HTTP verb that is included in the HTTP request.
++The (method) attribute is assigned a HTTP verb that is included in the HTTP request.
 
 eg: {f {h1}heading{/h1}
 
