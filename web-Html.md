@@ -125,3 +125,8 @@ Eg;
 
 +since checkbox creates multiples options to asnwer and if you want user to select only one option ,,,just change type="radio".
 
+**CSS**
+---
+
+CSS properties define how elements should be styled. For example, color, font-size, background-color, and margin are all properties.
+
