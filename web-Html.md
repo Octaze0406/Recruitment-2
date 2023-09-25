@@ -87,29 +87,35 @@ Created a website using html . HTML-used for crating web pages.
 
 ++CSS -Cascading Style SHeets.
 
-{!--Add your code below--}
++a {form} that will send information to a location(____) as a POST request:
+
++The (action) attribute determines where the information is sent.
+
++The (method) attribute is assigned a HTTP verb that is included in the HTTP request.
+
++{!--Add your code below--}
         
-	{label for="username Username{/label} --shows near the input box , what the user has to enter as input.
++{label for="username Username{/label} --shows near the input box , what the user has to enter as input.
         
-	{input type="text" name="username" value="Davie"} ,,,data stored as text under the name ;username
-     
-      {/form}
++{input type="text" name="username" value="Davie"} ,,,data stored as text under the name ;username
+      +{/form}
       
-     if we are asking the user for sesitive info and they dont want others to peek into their input typed on screen ;for password or pin 
++if we are asking the user for sesitive info and they dont want others to peek into their input typed on screen ;for password or pin 
 
-we have type= "password"
++we have type= "password"
 
-for integers input 
++for integers input 
 
-{label for="year"}Your age{/label}
++{label for="year"}Your age{/label}
 
 {input type="number" id="year" name="age" step="5"}  {!-- step function provided a scroll wheel at the end of input box to input numbers in the multiples of 5}
 
-if we want to set a range to how much number the user can input we use max="" and min="" along with type="range"
++if we want to set a range to how much number the user can input we use max="" and min="" along with type="range"
 
-if you want to create a checkbox type input
++if you want to create a checkbox type input
 
-{section class="protein"}
+Eg;
++{section class="protein"}
  
  {label for="chicken"}Chicken{/label}
  
@@ -117,4 +123,5 @@ if you want to create a checkbox type input
  
 {/section} creates a checkbox infront of chicken .
 
-since checkbox creates multiples options to asnwer and if you want user to select only one option ,,,just change type="radio".
++since checkbox creates multiples options to asnwer and if you want user to select only one option ,,,just change type="radio".
+
