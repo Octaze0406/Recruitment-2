@@ -49,16 +49,28 @@ note:leave 2 spaces before starting the code on a differernt line if the code ab
 tp add a comment ; {!--________--}
 
 TO CREATE A TABLE {table}
+
+
 to create number of rows use {tr} {/tr} --1 row
+
 to fill it with date use {td}
+
 to describe what the data represent we need table headings,,,{th}
+
 First, a new row was added to hold the three headings
+
 -- the use of the scope attribute, which can take one of two values:
 
+
+
 row - this value makes it clear that the heading is for a row.
+
 col - this value makes it clear that the heading is for a column.
+
 format: {th scope="row/col" }___________{/th}
+
 we enclose different rows of the table under ,,,{thead}, {
+
 tbody}, {tfoot}.
 
 CSS -Cascading Style SHeets.
@@ -66,24 +78,39 @@ CSS -Cascading Style SHeets.
  a {form} that will send information to a location(____) as a POST request:
 
 The (action) attribute determines where the information is sent.
+
 The (method) attribute is assigned a HTTP verb that is included in the HTTP request.
 
-eg: {form}
-				{h1}heading{/h1}
-	      {!--Add your code below--}
-        {label for="username Username{/label} --shows near the inout box , what the user has to enter as input.
-        {input type="text" name="username" value="Davie"} ,,,data stored as text under the name ;username
+eg: {f {h1}heading{/h1}
+
+{!--Add your code below--}
+        
+	{label for="username Username{/label} --shows near the inout box , what the user has to enter as input.
+        
+	{input type="text" name="username" value="Davie"} ,,,data stored as text under the name ;username
+     
       {/form}
+      
      if we are asking the user for sesitive info and they dont want others to peek into their input typed on screen ;for password or pin 
+
 we have type= "password"
+
 for integers input 
+
 {label for="year"}Your age{/label}
+
 {input type="number" id="year" name="age" step="5"}  {!-- step function provided a scroll wheel at the end of input box to input numbers in the multiples of 5}
+
 if we want to set a range to how much number the user can input we use max="" and min="" along with type="range"
+
 if you want to create a checkbox type input
+
 {section class="protein"}
+ 
  {label for="chicken"}Chicken{/label}
+ 
  {input type="checkbox" id="chicken" name="protein" value="chicken"}
+ 
 {/section} creates a checkbox infront of chicken .
 
 since checkbox creates multiples options to asnwer and if you want user to select only one option ,,,just change type="radio".
