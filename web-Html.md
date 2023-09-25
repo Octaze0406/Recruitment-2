@@ -142,6 +142,8 @@ It is a language used to manage and manupulate data in databases. Hence it can b
 
 +So in wrong hands, it can easily be a way for attackers to expose and change the data of a database hence called as -SQL i injection attacks.
 
++Note= (--) makes after after this on the line of code render as comment and not as code.
+
 ***A.IMPACTS***
 ---
 
