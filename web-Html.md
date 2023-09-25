@@ -87,17 +87,9 @@ Created a website using html . HTML-used for crating web pages.
 
 ++CSS -Cascading Style SHeets.
 
-+a {form} that will send information to a location(____) as a POST request:
-
-+The (action) attribute determines where the information is sent.
-
-+The (method) attribute is assigned a HTTP verb that is included in the HTTP request.
-
-eg: {f {h1}heading{/h1}
-
 {!--Add your code below--}
         
-	{label for="username Username{/label} --shows near the inout box , what the user has to enter as input.
+	{label for="username Username{/label} --shows near the input box , what the user has to enter as input.
         
 	{input type="text" name="username" value="Davie"} ,,,data stored as text under the name ;username
      
