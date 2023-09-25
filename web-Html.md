@@ -27,7 +27,7 @@ Created a website using html .
   .
   +++++++{h6}___{/h6}
 
-{elementName attributeName="attributeValue">Content</elementName}
++{elementName attributeName="attributeValue">Content</elementName}
 
 element names can be {a , {img , {video
 {a href"(for proving links)"}_for writing content__________{/a}
