@@ -3,9 +3,12 @@
 Practices and technologies used to (a) protect people, assets, and information, (b) monitor and/or control physical devices, processes and events.
 
 **OT VS IT**
+---
 
 IT deals with data processing while OT deals with controllong of machines etc.
 IT uses standard protocol while OT uses propriotory protocol.
+
+
 **THREATS**
 ---
 Threats beacuse of malware, elxternal attacks and from lack of management and security awareness.
