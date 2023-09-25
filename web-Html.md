@@ -2,7 +2,7 @@
 ---
 
 created a website using html , learned commands such as
-{<body>,</body>)} - to describe the main content of the HTML
+<!<body>,</body>> - to describe the main content of the HTML
  <div></div> - for grouping the contents of the web page to apply styles and fonts.
 <p> -to write any content for user to read.
   <em> will render the words in italic </em>
