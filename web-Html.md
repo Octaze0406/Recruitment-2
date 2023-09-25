@@ -142,7 +142,7 @@ It is a language used to manage and manupulate data in databases. Hence it can b
 
 +So in wrong hands, it can easily be a way for attackers to expose and change the data of a database hence called as -SQL i injection attacks.
 
-***IMPACTS***
+***A.IMPACTS***
 ---
 
 +SQL i impacts include revealing of sensitive data to attackers like:
@@ -153,4 +153,15 @@ It is a language used to manage and manupulate data in databases. Hence it can b
 
  =personal user details
 
-+
+***B.DETECTION***
+---
+
++multiple sql injections can be found easily by using = Burp Scanner
+
++manually using
+
+  1.(') to look for eroor /anomolies
+
+  2.(' OR 1=1--) boolean conditions to look out for application responses.
+
+  3.('; waitfor delay(0:0:20)-- )The purpose of injecting this code is to see if it's possible to manipulate the SQL query in a way that causes a time delay. If the delay occurs, it could be an indication that an SQL injection vulnerability exists in the application.
