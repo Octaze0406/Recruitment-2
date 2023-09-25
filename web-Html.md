@@ -21,10 +21,13 @@ Created a website using html .
 +different levels of headings can be created using - where the heirarchy ordering odf headings decreases from 1-6.
 
   ++{h1}________{/h1}
+  
   +++{h2}_______{/h2}
+  
   .
   .
   .
+  
   +++++++{h6}___{/h6}
 
 +{elementName attributeName="attributeValue">Content</elementName}
