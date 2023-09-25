@@ -1,7 +1,7 @@
 **HTML{HYPERTEXT MARKUP LANGUAGE}**
 --- 
 
-Created a website using html .
+Created a website using html . HTML-used for crating web pages.
 
 **Commands I learned**
 ---
@@ -32,10 +32,13 @@ Created a website using html .
 
 +{elementName attributeName="attributeValue">Content</elementName}
 
-element names can be {a , {img , {video
-{a href"(for proving links)"}_for writing content__________{/a}
-{img src="for link" alt="to provide descryption of image"}
-{video src="for link" width="" height="" contents(for play ,pause, stop contols over the video)}
+ ++element names can be {a(anchor) , {img , {video
+ 
++{a href"(for proving links)"}_for writing content__________{/a}
+
++{img src="for link" alt="to provide descryption of image"}
+
++{video src="for link" width="" height="" contents(for play ,pause, stop contols over the video)}
 
 declaration at the begining is used to indicate 
 
