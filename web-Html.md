@@ -5,16 +5,20 @@ created a website using html .
 learned commands such as {body,/body}- to describe the main content of the HTML.
  
 {div,/div}- for grouping the contents of the web page to apply styles and fonts.
+
 {p} -to write any content for user to read.
-{em} will render the words in italic </em>
-{strong} will render the words as bold</strong>
+
+{em} will render the words in italic {/em}
+
+{strong} will render the words as bold {/strong}
+
 different levels of headings can be created using 
-<h1>________</h1>
-<h2>_______</h2>
+{h1}________{/h1}
+{h2}_______{/h2}
 .
 .
 .
-<h6>___</h6>
+{h6}___{/h6}
 
 <elementName attributeName="attributeValue">Content</elementName>
 element names can be <a , <img , <video
