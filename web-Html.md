@@ -20,11 +20,12 @@ different levels of headings can be created using
 .
 {h6}___{/h6}
 
-<elementName attributeName="attributeValue">Content</elementName>
-element names can be <a , <img , <video
-<a href"(for proving links)">_for writing content__________</a>
-<img src="for link" alt="to provide descryption of image">
-<video src="for link" width="" height="" contents(for play ,pause, stop contols over the video)
+{elementName attributeName="attributeValue">Content</elementName}
+
+element names can be {a , {img , {video
+{a href"(for proving links)"}_for writing content__________{/a}
+{img src="for link" alt="to provide descryption of image"}
+{video src="for link" width="" height="" contents(for play ,pause, stop contols over the video)}
 
 declaration at the begining is used to indicate 1. the type ofdocument 2. the version  eg:HTML 5, HTML4.01 strict, HTML 4.01 transitional, XHTML 1.0 Strict
 eg; <!DOCTYPE html>
