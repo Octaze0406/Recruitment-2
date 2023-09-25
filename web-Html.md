@@ -16,15 +16,16 @@ Created a website using html .
 
 +{em} will render the words in italic {/em}
 
-{strong} will render the words as bold {/strong}
++{strong} will render the words as bold {/strong}
 
-different levels of headings can be created using 
-{h1}________{/h1}
-{h2}_______{/h2}
-.
-.
-.
-{h6}___{/h6}
++different levels of headings can be created using - where the heirarchy ordering odf headings decreases from 1-6.
+
+  ++{h1}________{/h1}
+  +++{h2}_______{/h2}
+  .
+  .
+  .
+  +++++++{h6}___{/h6}
 
 {elementName attributeName="attributeValue">Content</elementName}
 
