@@ -5,8 +5,8 @@ Created a website using html .
 
 **Commands I learned**
 ---
-
-learned commands such as {body,/body}- to describe the main content of the HTML.
+(<>) represented by ({}) for presenting in the repo.
+{body,/body}- to describe the main content of the HTML.
  
 {div,/div}- for grouping the contents of the web page to apply styles and fonts.
 
