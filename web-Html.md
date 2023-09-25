@@ -7,13 +7,14 @@ Created a website using html .
 ---
 
 (<>) represented by ({}) for presenting in the repo.
-{body,/body}- to describe the main content of the HTML.
+
++{body},{/body}- to describe the main content of the HTML.
  
-{div,/div}- for grouping the contents of the web page to apply styles and fonts.
++{div},{/div}- for grouping the contents of the web page to apply styles and fonts.
 
-{p} -to write any content for user to read.
++{p} -to write any content for user to read. (p- indicates paragraph).
 
-{em} will render the words in italic {/em}
++{em} will render the words in italic {/em}
 
 {strong} will render the words as bold {/strong}
 
