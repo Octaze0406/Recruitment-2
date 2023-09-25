@@ -40,19 +40,19 @@ Created a website using html . HTML-used for crating web pages.
 
 +{video src="for link" width="" height="" contents(for play ,pause, stop contols over the video)}
 
-declaration at the begining is used to indicate 
++declaration at the begining is used to indicate 
 
-_1. the type ofdocument _2. the version  eg:HTML 5, HTML4.01 strict, HTML 4.01 transitional, XHTML 1.0 Strict
++_1. the type ofdocument _2. the version  eg:HTML 5, HTML4.01 strict, HTML 4.01 transitional, XHTML 1.0 Strict
 
-eg; {!DOCTYPE html}
++eg; {!DOCTYPE html}
 
-To create HTML structure and content, we must add opening and closing <html> tags after declaring {!DOCTYPE html}:
++To create HTML structure and content, we must add opening and closing <html> tags after declaring {!DOCTYPE html}:
 
-while the {body} displays info about the contents of web , the {head} above it tells us about the web page itself, not easily available for user.\
++while the {body} displays info about the contents of web , the {head} above it tells us about the web page itself, not easily visibile in the webpage for user.
 
-to provide a title to the web page use {title}____{/title}
++to provide a title to the web page use {title}____{/title}
 
-{body}
++{body}
 {a href="" target="_blank"} - to open the said link inside href in a new tab.
 you can put your image as a link by simply putting the image command inside anchor :{a_____} {img________} {/a}
 
