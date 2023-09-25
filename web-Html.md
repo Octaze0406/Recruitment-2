@@ -135,4 +135,22 @@ selector {
     property2: value2;
 }
 
+**SQL(STRUCTURED QUERY LANGUAGE)**
+---
 
+It is a language used to manage and manupulate data in databases. Hence it can be used to retreive, insert, delete data.
+
++So in wrong hands, it can easily be a way for attackers to expose and change the data of a database hence called as -SQL i injection attacks.
+
+***IMPACTS***
+---
+
++SQL i impacts include revealing of sensitive data to attackers like:
+
+ =passwords
+
+ =credit card details
+
+ =personal user details
+
++
