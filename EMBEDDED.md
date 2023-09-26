@@ -29,11 +29,13 @@ Mainly consits of 3 factors;
  **B.IDE**
  ---
 
-The IDE (Integrated Development Environment) is a crucial software component of the Arduino platform. It provides an interface for writing, compiling, and uploading code to Arduino microcontroller boards.
-It includes key components like : 
+ The IDE (Integrated Development Environment) is a crucial software component of the Arduino platform. It provides an interface for writing, compiling, and uploading code to Arduino microcontroller boards.
+ 
+ It includes key components like : 
   1.library for pre written codes, 
   2.serial monitor to monitor the outputs
-  3.code editor to write the codes 
+  3.code editor to write the codes
+  
 **C.CODE**
 ---
 
