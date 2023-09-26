@@ -25,7 +25,7 @@ To read files that are hidden we cant simply use ls beacuse it only shows non-hi
 To identify which file is human readable aka(ASCII) , we can use file command.If multiples files ina directory need to be searched use file ./* .
    1. file -shows the type of file.
    2. ./ showing current directory
-   3. * for the command to apply to all files.
+   3. (*) for the command to apply to all files.
 
 **BANDIT5**
 ---
