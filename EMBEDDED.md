@@ -25,6 +25,11 @@ Mainly consits of 3 factors;
  b.DIGITAL PINS; to read binary (ie. on/off) inputs. tx(transmit) and rx(receive) are available to communicate using USB port.
  
    (~) after pin number means pins are capable of Pulse Width Modulation which is used to toggle between high and low voltages. Hence by using data cycle(number of times pin was high) we can set intensity .
+
+ c.ANALOG PINS; to read continous outputs which can be converted to digital binary values for microcontroller to understand. Mainly used to take read from temperature sensors which provides contant outputs.
+
+ d.POWER ; GND- ground,  V- external voltage source to power the board.
+ 
    
  **B.IDE**
  ---
@@ -38,4 +43,6 @@ Mainly consits of 3 factors;
   
 **C.CODE**
 ---
+
+
 
