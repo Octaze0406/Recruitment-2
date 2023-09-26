@@ -13,7 +13,9 @@ Mainly consits of 3 factors;
 +Basically means the physical components that makes up the board.eg: 
 
   1.Microcontroller : The microcontroller is the central processing unit of the board, where you upload the code that instructs the board on how to interpret inputs and generate outputs.
+  
   2.Power supply : Can be powered using USB port, VIN PIN etc.
+  
   3.INPUT AND OUTPUT PINS: where all the components are connected to and based on the code classifies specific pins as inputs or outputs.
 
 +The pins on the board include :
