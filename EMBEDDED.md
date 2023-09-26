@@ -19,9 +19,12 @@ Mainly consits of 3 factors;
   3.INPUT AND OUTPUT PINS: where all the components are connected to and based on the code classifies specific pins as inputs or outputs.
 
 +The pins on the board include :
+
  a.GPIO ; general purpose input output pins which works by reading voltage changes at the pins ends and by changing voltage at the pin ends respectively.
+ 
  b.DIGITAL PINS; to read binary (ie. on/off) inputs. tx(transmit) and rx(receive) are available to communicate using USB port.
-   (~) means pins are capable of Pulse Width Modulation which is used to toggle between high and low voltages. Hence by using data cycle(number of times pin was high) we can set intensity .
+ 
+   (~) after pin number means pins are capable of Pulse Width Modulation which is used to toggle between high and low voltages. Hence by using data cycle(number of times pin was high) we can set intensity .
  
 ---
 ChatGPT
