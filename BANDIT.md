@@ -58,13 +58,26 @@ To pint point a line amongst many ,we use sort and uniq .
 sort (file) -arranges all the lines in alphabetical order
 |uniq -u  it serches for lines which only repeats only once.
 
-**BNADIT9**
+**BANDIT9**
 ---
 
-Since using file revealed the file contained (data) and we need human readable text: strings (filename) - strings command is used to extract human readable strings from binary files.
+Since using file command revealed what the file contained was (data) and we need human readable text: strings (filename) - strings command is used to extract human readable strings from binary files.
 
 **BANDIT10**
 ---
 
+To convert base64 to ASCII - (base64 -d <<< "_____") 
 
+OR simply use: echo __________base64encoded___ |base64 -d : echo basically prints what comes after it as text to terminal and | takes it out and gives it to next command ie base64 and -d decodes and it.
+
+**BANDIT11**
+---
+
+since we have to rotate the alphates by 13 positons, we have to use ROT13 :cat filename | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+**BANDIT12**
+---
+
+first as per description ,create directory to store the data temporarily : mkdir /tmp/name
+then copy the file from home directory to current - cp ~/filename (~/ :represent homedirectory to current directory)
 
