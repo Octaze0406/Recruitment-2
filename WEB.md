@@ -166,7 +166,7 @@ It is a language used to manage and manupulate data in databases. Hence it can b
 2. (' OR 1=1--) boolean conditions to look out for application responses.
 3. ('; waitfor delay(0:0:20)-- )The purpose of injecting this code is to see if it's possible to manipulate the SQL query in a way that causes a time delay. If the delay occurs, it could be an indication that an SQL injection vulnerability exists in the application.
 
-***C.WJERE DOES SQL INJECTION HAPPEN***
+***C.WHERE DOES SQL INJECTION HAPPEN***
 ---
 
 1. In SELECT statements in the WHERE query
