@@ -44,5 +44,18 @@ Mainly consits of 3 factors;
 **C.CODE**
 ---
 
+ +To store variables: type name = "__"; where tpye includes integers(int), boolean(bool) ,char (to store single digits characters -specifically 8 bit ASCII .
+ 
+ Bit-smallest unit data that a computer can process. Bytes-Bits are usually assembled into a group of eight to form a byte .KB- 1024 bytes.
+
+ +pinMOde(pin, INPUT/OUTPUT); -configures pins as output/inputs
+
+ +digitalWrite(pin, HIGH/LOW); configures pin as high or low voltage
+
+ +digitalRead(pin); read the current stae of pin.
+
+ +analogRead(pin); read the analog output in the range 0 to 1023.
+ 
+
 
 
