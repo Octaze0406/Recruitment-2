@@ -25,9 +25,9 @@ Mainly consits of 3 factors;
  b.DIGITAL PINS; to read binary (ie. on/off) inputs. tx(transmit) and rx(receive) are available to communicate using USB port.
  
    (~) after pin number means pins are capable of Pulse Width Modulation which is used to toggle between high and low voltages. Hence by using data cycle(number of times pin was high) we can set intensity .
- 
----
-ChatGPT
+   
+ **B.IDE**
+ ---
 
 The IDE (Integrated Development Environment) is a crucial software component of the Arduino platform. It provides an interface for writing, compiling, and uploading code to Arduino microcontroller boards.
 It includes key components like : 
