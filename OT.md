@@ -33,18 +33,7 @@ Challenges in OT Security:
     
   **PLOP**
   ---
-
-   PLOP is an acronym that represents different aspects you need to consider when securing a computer or industrial system:
-
-    P stands for People: Consider the training and roles of the people involved in the system's security.
-
-    L stands for Layers: Think about the different layers of security you can put in place, like passwords, firewalls, and antivirus software.
-
-    O stands for Objects: This refers to the devices and software within the system that need to be protected.
-
-    P stands for Platforms: Consider the underlying technologies and systems that support your computer or industrial setup.
-
-By addressing these four aspects (People, Layers, Objects, and Platforms), you can create a well-rounded and effective security strategy for your system.
+The principle of least privilege (PoLP) refers to an information security concept in which a user is given the minimum levels of access – or permissions – needed to perform his/her job functions. It is widely considered to be a cybersecurity best practice and is a fundamental step in protecting privileged access to high-value data and assets. 
 
  **PROTOCOLS**
  ---
