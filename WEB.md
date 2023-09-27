@@ -178,3 +178,7 @@ It is a language used to manage and manupulate data in databases. Hence it can b
 ---
 
 You don't write the specific details (user input) directly into the SQL query. Instead, you put placeholders (the blanks or checkboxes) where your preferences should go.
+
+
+**PICO CTF**
+---
