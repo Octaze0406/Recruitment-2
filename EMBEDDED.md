@@ -55,7 +55,16 @@ Mainly consits of 3 factors;
  +digitalRead(pin); read the current stae of pin.
 
  +analogRead(pin); read the analog output in the range 0 to 1023.
- 
+
+
+ **ARDUINO PRACTICE PROJECTS**
+ ---
+
+ 1. POTENTIOMETER CONTROLLED SERVO: https://www.tinkercad.com/things/6GKcPaK4JrF
+ 2. PUSH BUTTON CONTROLLED TRAFIC LIGHT : https://www.tinkercad.com/things/8AihR7Yj9or
+ 3. 
+
+
 
 
 
