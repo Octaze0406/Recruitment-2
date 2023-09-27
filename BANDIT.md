@@ -79,5 +79,35 @@ since we have to rotate the alphates by 13 positons, we have to use ROT13 :cat f
 ---
 
 first as per description ,create directory to store the data temporarily : mkdir /tmp/name
-then copy the file from home directory to current - cp ~/filename (~/ :represent homedirectory to current directory)
+then copy the file from home directory to current - cp ~/filename (~/ :represent homedirectory to current directory
+
+then to understand what kind of file: file (name)
+
+  1.if it came as gzip; change the file to gzip format by :mv filename filename.gz
+
+  then decompress it using: gzip -d filename.gz
+
+  2.if came as bzip2 : mv filename filename.bz2
+
+  then decompress using: bzip2 -d filenmae.bz2
+
+  3. if came as POSIX tar archive (GNU) : mv filename filename.tr
+
+     decompress using :tar -xf filename.tr
+
+which revealed flag as ASCII at end
+
+**BANDIT 13**
+---
+
+To connect to a server using private key use: ssh -i (privatekey) username@host -p 
+
+**BANDIT 14**
+---
+
+nc - command used to read and write data on a local network
+
+
+
+
 
