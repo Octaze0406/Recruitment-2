@@ -21,16 +21,16 @@ Threats beacuse of malware, elxternal attacks and from lack of management and se
 
 Challenges in OT Security:
 
-    Lack of Skills in Security Operations Center (SOC): Not enough people are trained to handle security operations effectively.
+ Lack of Skills in Security Operations Center (SOC): Not enough people are trained to handle security operations effectively.
 
-    Constant Changing Tactics: The tactics used by attackers keep evolving and are hard to predict.
+ Constant Changing Tactics: The tactics used by attackers keep evolving and are hard to predict.
+ 
+ Need for Different Tools: There is no single tool or set of skills that can detect all types of threats. We need various tools.
 
-    Need for Different Tools: There is no single tool or set of skills that can detect all types of threats. We need various tools.
+ Passive and Manual Tools: Some security tools cannot automatically respond to threats, and they need human intervention.
 
-    Passive and Manual Tools: Some security tools cannot automatically respond to threats, and they need human intervention.
-
-    Old Equipment Exposes Endpoints: Outdated equipment can create vulnerabilities that attackers can exploit.
-
+ Old Equipment Exposes Endpoints: Outdated equipment can create vulnerabilities that attackers can exploit.
+    
   **PLOP**
   ---
 
