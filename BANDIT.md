@@ -107,6 +107,18 @@ To connect to a server using private key use: ssh -i (privatekey) username@host 
 
 nc - command used to read and write data on a local network
 
+**BANDIT 15**
+---
+
+TO connect to aserver connecting to a local host- openss s_client -connect (where s_client: is used to woek with ssl tasks and interact with it)
+
+**BANDIT 16**
+---
+
+to scan whihc has the ssl we use nmap with sV-which tells it to do a detection scan : nmap sV (hostname) -p range
+after finding the port using ssl ,use openssl to connect to it on the port.
+
+
 
 
 
