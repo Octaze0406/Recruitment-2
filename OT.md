@@ -39,6 +39,7 @@ The principle of least privilege (PoLP) refers to an information security concep
  ---
  
  OT uses modbus, DNP3 and OPC3
+ modbus:Modbus is a widely used communication protocol in industrial automation and control systems.
  whereas IT used HTTP AND TCIP/ip
  
  **ACCESS CONTROL**
