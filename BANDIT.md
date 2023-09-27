@@ -116,6 +116,8 @@ TO connect to aserver connecting to a local host- openss s_client -connect (wher
 ---
 
 to scan whihc has the ssl we use nmap with sV-which tells it to do a detection scan : nmap sV (hostname) -p range
+
+WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a cryptographic protocol designed to provide secure communication over a computer network.
 after finding the port using ssl ,use openssl to connect to it on the port.
 
 
