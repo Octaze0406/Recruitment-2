@@ -64,7 +64,10 @@ Mainly consits of 3 factors;
  2. PUSH BUTTON CONTROLLED TRAFIC LIGHT : https://www.tinkercad.com/things/8AihR7Yj9or
 
  PRACTICE PORJECTS: 
+ 
   1.Fading of an led and to displaying its output on an oscillometer: https://www.tinkercad.com/things/4hLyOHPvs5O.
+  
+  2. Rotating a Servo using a temerature sensor: https://www.tinkercad.com/things/0063zHm5H8m
 
 
 
