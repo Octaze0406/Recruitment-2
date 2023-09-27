@@ -110,7 +110,7 @@ nc - command used to read and write data on a local network
 **BANDIT 15**
 ---
 
-TO connect to aserver connecting to a local host- openss s_client -connect (where s_client: is used to woek with ssl tasks and interact with it)
+TO connect to aserver connecting to a local host- openss s_client -connect (hostname):port - (where s_client: is used to work with ssl tasks and interact with it)
 
 **BANDIT 16**
 ---
@@ -118,7 +118,11 @@ TO connect to aserver connecting to a local host- openss s_client -connect (wher
 to scan whihc has the ssl we use nmap with sV-which tells it to do a detection scan : nmap sV (hostname) -p range
 
 WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a cryptographic protocol designed to provide secure communication over a computer network.
-after finding the port using ssl ,use openssl to connect to it on the port.
+
+.after finding the port using nmap,use openssl to connect to it on the port.
+
+**BANDIT17**
+---
 
 
 
