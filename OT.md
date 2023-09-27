@@ -11,7 +11,7 @@ IT uses standard protocol while OT uses propriotory protocol.
 
 Why is ot at risk :
 
--IT OT convergance leads to efficiency but connects it to the internet thus opening up risks
+-IT OT convergance leads to efficiency but connects it to the internet thus opening up risks.
 
 **THREATS**
 ---
