@@ -62,7 +62,9 @@ Mainly consits of 3 factors;
 
  1. POTENTIOMETER CONTROLLED SERVO: https://www.tinkercad.com/things/6GKcPaK4JrF
  2. PUSH BUTTON CONTROLLED TRAFIC LIGHT : https://www.tinkercad.com/things/8AihR7Yj9or
- 3. 
+
+ PRACTICE PORJECTS: 
+  1.Fading of an led and to displaying its output on an oscillometer: https://www.tinkercad.com/things/4hLyOHPvs5O.
 
 
 
