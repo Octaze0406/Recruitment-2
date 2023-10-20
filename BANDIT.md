@@ -139,12 +139,19 @@ to scan whihc has the ssl we use nmap with sV-which tells it to do a detection s
 
 WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a cryptographic protocol designed to provide secure communication over a computer network.
 
-.after save open banit 17 using ssh -i the savedfile bandit17........-p 2220
+* after saving ,open bandit 17 using : ssh -i (the savedfile) bandit17........-p 2220
 
 **BANDIT17**
 ---
 
  Next to find out the line which is diiferent between two directories we use diff command: diff previous new |uniq -u
+
+The differed text will come as :< p6ggwdNHncnmCNxuAt0KtKVq185ZU7AW
+---
+> hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg.
+>
+> * hence the new password.
+
 
  **BANDIT18**
  ---
