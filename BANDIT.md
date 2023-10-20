@@ -99,7 +99,7 @@ which revealed flag as ASCII at end
 
 **BANDIT 13**
 ---
-
+login password:wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 To connect to a server using private key use: ssh -i (privatekey) username@host -p 
 
 **BANDIT 14**
