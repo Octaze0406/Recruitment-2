@@ -151,7 +151,6 @@ WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a crypt
 
 *  hence the new password.
 
-
  **BANDIT18**
  ---
 
@@ -159,8 +158,10 @@ WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a crypt
 
  * //When you connect to an SSH server, the server's default behavior is to start a login shell for the specified user. If the login shell exits immediately, it can result in being logged out immediately after connecting.
 * to solve: Try specifying a different shell explicitly when connecting. For example, you can use: ssh bandit18@bandit.labs.overthewire.org -p 2220 /bin/bash
+-  [ This command explicitly specifies /bin/bash as the shell to be used on the remote server.] - more user friendly option
   
-*  since we cant directly connect using ssh, we can create a remote shell to do the task using: -t /bin/sh
+*  since we cant directly connect using ssh, we can create a remote shell to do the task using: -t /bin/sh  {-t ;This will start a new bash shell on the server.}
+-   [This command uses the -t option, which forces pseudo-tty allocation, and specifies /bin/sh as the shell.]
 
  **BANDIT19
 
