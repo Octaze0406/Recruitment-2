@@ -146,16 +146,18 @@ WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a crypt
 
  Next to find out the line which is diiferent between two directories we use diff command: diff previous new |uniq -u
 
-The differed text will come as :< p6ggwdNHncnmCNxuAt0KtKVq185ZU7AW
----
-> hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg.
->
-> * hence the new password.
+* The differed text will come as :< p6ggwdNHncnmCNxuAt0KtKVq185ZU7AW
+-- hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg.
+
+*  hence the new password.
 
 
  **BANDIT18**
  ---
- since we cant directly connect using ssh, we can create a remote shell to do the task using: -t /bin/sh
+
+ * bandit18 pass:hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg.
+
+ * since we cant directly connect using ssh, we can create a remote shell to do the task using: -t /bin/sh
 
  **BANDIT19
 
