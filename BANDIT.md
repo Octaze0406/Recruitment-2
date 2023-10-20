@@ -99,27 +99,47 @@ which revealed flag as ASCII at end
 
 **BANDIT 13**
 ---
-login password:wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+login password:wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw 
+
 To connect to a server using private key use: ssh -i (privatekey) username@host -p 
+
+After entering , you can open the file given in the task to reveal the password for level 14
+
+bandit14 pass:fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+
 
 **BANDIT 14**
 ---
 
-nc - command used to read and write data on a local network
+nc - hostname port {command used to read and write data on a local network}
+
+bandit15 pass :jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
 
 **BANDIT 15**
 ---
 
 TO connect to aserver connecting to a local host- openss s_client -connect (hostname):port - (where s_client: is used to work with ssl tasks and interact with it)
 
+bandit16 pass:JQttfApK4SeyHwDlI9SXGR50qclOAil1
+
+
 **BANDIT 16**
 ---
 
+nmap [Scan Type(s)] [Options] 3{target specification}  . where sV is used to probe open for info.
+
 to scan whihc has the ssl we use nmap with sV-which tells it to do a detection scan : nmap sV (hostname) -p range
+
+* if everything showns unknown use : nmap -A localhost -p range
+
+* after connect to it using openssl s_client _connect localhost:port
+
+* then save it into a new file
 
 WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a cryptographic protocol designed to provide secure communication over a computer network.
 
-.after finding the port using nmap,use openssl to connect to it on the port.
+.after save open banit 17 using ssh -i the savedfile bandit17........-p 2220
 
 **BANDIT17**
 ---
