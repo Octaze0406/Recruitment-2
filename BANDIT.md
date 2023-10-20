@@ -163,6 +163,9 @@ WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a crypt
 *  since we cant directly connect using ssh, we can create a remote shell to do the task using: -t /bin/sh  {-t ;This will start a new bash shell on the server.}
 -   [This command uses the -t option, which forces pseudo-tty allocation, and specifies /bin/sh as the shell.]
 
+* this will open up a new file readme and on using cat will give the pass: awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+
+
  **BANDIT19
 
 
