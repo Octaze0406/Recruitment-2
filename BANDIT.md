@@ -199,8 +199,12 @@ Setting Setuid Permission:
 
 Open two terminal:
 - one to send the bandit 20 password: echo -n 'pass' | nc -l -p 12000
-- one to receive using : ./suconnect 12000
-  bandit21 pass:NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+ - echos the test as standard output , -n : removes the newline at the end because it will create trouble at the end while formating, | : send the standard output as input to nc, nc: used for network communication , -l : to listen to upcoming comms , -p number : to listen on specific portnumber
+
+-  one to receive using : ./suconnect 12000: to receive something on a specified port and to send back something on the same port  bandit21
+
+
+  pass:NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
 
   
 
