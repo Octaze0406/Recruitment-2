@@ -194,6 +194,14 @@ Setting Setuid Permission:
 
   **BANDIT20**
   ---
+* after going to directory and typing ls -l : i got suconnect and used it to listen on any port number say:12000 by : ./suconnect 12000
+* for listening we need to send something ,and here we need to send the bandit20 password:e0ho -n "bandit20pass" | nc -l  -p 12000
+
+Open two terminal:
+- one to send the bandit 20 password: echo -n 'pass' | nc -l -p 12000
+- one to receive using : ./suconnect 12000
+  bandit21 pass:NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+
   
 
 
