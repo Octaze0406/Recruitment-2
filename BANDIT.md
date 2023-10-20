@@ -8,7 +8,7 @@
 Next level introcued a dashed file(-). To open it use cat <-
 
 **BANDIT 2**
----
+--- 
 
 To open file with spaces in between either use
    1.cat "____"
