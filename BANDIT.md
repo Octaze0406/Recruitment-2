@@ -157,7 +157,10 @@ WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a crypt
 
  * bandit18 pass:hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg.
 
- * since we cant directly connect using ssh, we can create a remote shell to do the task using: -t /bin/sh
+ * //When you connect to an SSH server, the server's default behavior is to start a login shell for the specified user. If the login shell exits immediately, it can result in being logged out immediately after connecting.
+* to solve: Try specifying a different shell explicitly when connecting. For example, you can use: ssh bandit18@bandit.labs.overthewire.org -p 2220 /bin/bash
+  
+*  since we cant directly connect using ssh, we can create a remote shell to do the task using: -t /bin/sh
 
  **BANDIT19
 
