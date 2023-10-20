@@ -166,7 +166,37 @@ WHAT IS SSL- The SSL protocol, which stands for Secure Sockets Layer, is a crypt
 * this will open up a new file readme and on using cat will give the pass: awhqfNnAbc1naukrpqDYcF95h7HoMTrC
 
 
- **BANDIT19
+ **BANDIT19**
+ ---
+ setuid: a bit that makes an executable run with the privileges of the owner of the file.
+-  The primary purpose of setuid is to allow users to execute specific programs with elevated privileges without needing to escalate their own privileges.
+
+-  Linux File Permissions:
+
+   * Each file in Linux has an owner, a group that owns the file, and permissions set for the user (owner), group, and others.
+   * Permissions include read (r), write (w), and execute (x) for each category (user, group, others).
+   * Permissions are represented in the format rwxrwxrwx, where the first three letters represent user permissions, the next three represent group permissions, and the      last three represent others' permissions.
+
+Setuid (s) Permission:
+
+    The setuid (s) permission is a special permission that replaces the x (execute) permission in the user's permission set.
+    When a program with setuid is executed, it runs with the effective user ID (UID) of the owner of the program, not the UID of the user who launched it.
+
+Setting Setuid Permission:
+
+    To give a binary setuid permissions, use the chmod u+s <filename> command.
+* first on trying to open the password,i was denied permission as a user. to get the same level of preveilages as a user we use setud.
+* going to home directory to check the additional details on each file,(rwxrwxrwx)
+* cd ~ , ls -l , and on going to the directory of the file...it said run the command as another user.
+* so going back as a bandit user and putting in :./bandit20-do cat /etc/bandit_pass/bandit20
+
+  bandit20 pass:VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+
+  **BANDIT20**
+  ---
+  
+
+
 
 
 
